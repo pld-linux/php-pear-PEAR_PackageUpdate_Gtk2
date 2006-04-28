@@ -45,7 +45,7 @@ In PEAR status of this package is: %{_status}.
 
 %description -l pl
 PEAR_PackageUpdate (PPU) zosta³ zaprojektowany aby umo¿liwiæ
-developereom do³±czenie w prosty sposób automatycznej aktualizacji
+developerom do³±czenie w prosty sposób automatycznej aktualizacji
 innych pakietów PEAR lub aplikacji korzystaj±cych ze sposobu
 instalacji PEAR. PPU sprawdzi czy jest dostêpna nowa wersja i zapyta
 u¿ytkownika czy chcia³by zaktualizowaæ pakiet. PPU korzysta z PEAR do
