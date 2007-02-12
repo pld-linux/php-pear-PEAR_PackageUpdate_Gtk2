@@ -5,7 +5,7 @@
 %define		_pearname	PEAR_PackageUpdate_Gtk2
 
 Summary:	%{_pearname} - A PHP-GTK 2 front end for PEAR_PackageUpdate
-Summary(pl):	%{_pearname} - Frontend PHP-GTK2 do PEAR_PackageUpdate
+Summary(pl.UTF-8):   %{_pearname} - Frontend PHP-GTK2 do PEAR_PackageUpdate
 Name:		php-pear-%{_pearname}
 Version:	0.3.1
 Release:	1
@@ -44,22 +44,22 @@ to include auto-updating features.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-PEAR_PackageUpdate (PPU) zosta³ zaprojektowany aby umo¿liwiæ
-developerom do³±czenie w prosty sposób automatycznej aktualizacji
-innych pakietów PEAR lub aplikacji korzystaj±cych ze sposobu
-instalacji PEAR. PPU sprawdzi czy jest dostêpna nowa wersja i zapyta
-u¿ytkownika czy chcia³by zaktualizowaæ pakiet. PPU korzysta z PEAR do
-komunikacji z serwerem kana³ów oraz do wykonania aktualizacji.
+%description -l pl.UTF-8
+PEAR_PackageUpdate (PPU) zostaÅ‚ zaprojektowany aby umoÅ¼liwiÄ‡
+developerom doÅ‚Ä…czenie w prosty sposÃ³b automatycznej aktualizacji
+innych pakietÃ³w PEAR lub aplikacji korzystajÄ…cych ze sposobu
+instalacji PEAR. PPU sprawdzi czy jest dostÄ™pna nowa wersja i zapyta
+uÅ¼ytkownika czy chciaÅ‚by zaktualizowaÄ‡ pakiet. PPU korzysta z PEAR do
+komunikacji z serwerem kanaÅ‚Ã³w oraz do wykonania aktualizacji.
 
-PPU pozwala u¿ytkownikowi koñcowemu na pewn± kontrolê kiedy maj± byæ
-powiadamiania o nowych aktualizacjach. Preferencje PPU pozwalaj±
-u¿ytkownikowi na pominiêcie pewnych rodzajów aktualizacji (poprawki
-b³êdów, drobne wydania), czy konkretnych statusów (devel, alpha,
-itp.), czy polecenie PPU aby nie pyta³ do czasu kolejnej wersji.
+PPU pozwala uÅ¼ytkownikowi koÅ„cowemu na pewnÄ… kontrolÄ™ kiedy majÄ… byÄ‡
+powiadamiania o nowych aktualizacjach. Preferencje PPU pozwalajÄ…
+uÅ¼ytkownikowi na pominiÄ™cie pewnych rodzajÃ³w aktualizacji (poprawki
+bÅ‚Ä™dÃ³w, drobne wydania), czy konkretnych statusÃ³w (devel, alpha,
+itp.), czy polecenie PPU aby nie pytaÅ‚ do czasu kolejnej wersji.
 
 PEAR_PackageUpdate_Gtk2 jest opartym o PHP-GTK 2 frontendem do PPU.
-Zosta³ zaprojektowany w celu do³±czenia do aplikacji korzystaj±cych z
+ZostaÅ‚ zaprojektowany w celu doÅ‚Ä…czenia do aplikacji korzystajÄ…cych z
 PHP-GTK 2 funkcji automatycznej aktualizacji.
 
 Ta klasa ma w PEAR status: %{_status}.
