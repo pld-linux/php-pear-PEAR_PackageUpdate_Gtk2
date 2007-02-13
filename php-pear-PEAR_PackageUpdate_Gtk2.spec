@@ -5,7 +5,7 @@
 %define		_pearname	PEAR_PackageUpdate_Gtk2
 
 Summary:	%{_pearname} - A PHP-GTK 2 front end for PEAR_PackageUpdate
-Summary(pl.UTF-8):   %{_pearname} - Frontend PHP-GTK2 do PEAR_PackageUpdate
+Summary(pl.UTF-8):	%{_pearname} - Frontend PHP-GTK2 do PEAR_PackageUpdate
 Name:		php-pear-%{_pearname}
 Version:	0.3.1
 Release:	1
