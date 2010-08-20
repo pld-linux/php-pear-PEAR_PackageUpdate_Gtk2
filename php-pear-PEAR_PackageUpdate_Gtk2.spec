@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - A PHP-GTK 2 front end for PEAR_PackageUpdate
 Summary(pl.UTF-8):	%{_pearname} - Frontend PHP-GTK2 do PEAR_PackageUpdate
 Name:		php-pear-%{_pearname}
-Version:	0.3.1
-Release:	2
+Version:	0.3.2
+Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	89197130c9493fe96c0f0ce0bdb378e9
+# Source0-md5:	a5f8ee6f220a110890d35cfdc5919eda
 URL:		http://pear.php.net/package/PEAR_PackageUpdate_Gtk2/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
