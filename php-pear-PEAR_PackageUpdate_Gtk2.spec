@@ -1,25 +1,22 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		PEAR
-%define		_subclass	PackageUpdate_Gtk2
 %define		_status		beta
 %define		_pearname	PEAR_PackageUpdate_Gtk2
-
 Summary:	%{_pearname} - A PHP-GTK 2 front end for PEAR_PackageUpdate
 Summary(pl.UTF-8):	%{_pearname} - Frontend PHP-GTK2 do PEAR_PackageUpdate
 Name:		php-pear-%{_pearname}
 Version:	0.3.2
-Release:	1
+Release:	2
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	a5f8ee6f220a110890d35cfdc5919eda
 URL:		http://pear.php.net/package/PEAR_PackageUpdate_Gtk2/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.8
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
 Requires:	php-pear-PEAR >= 1:1.4.-0.8
-Requires:	php-pear-PEAR_PackageUpdate >= 0.3.0
+Requires:	php-pear-PEAR_PackageUpdate >= 0.3.0-0.devel
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
