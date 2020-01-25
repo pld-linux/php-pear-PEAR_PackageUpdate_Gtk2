@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	PEAR_PackageUpdate_Gtk2
 Summary:	%{_pearname} - A PHP-GTK 2 front end for PEAR_PackageUpdate
